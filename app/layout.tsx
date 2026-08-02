@@ -5,7 +5,7 @@ import './globals.css'
 import './portfolio.css'
 
 export const metadata: Metadata = {
-  title: 'Alex Morgan — Software Developer',
+  title: 'Tushar Sharma — Software Developer',
   description: 'Full-stack software developer passionate about building exceptional digital experiences.',
   generator: 'v0.app',
   icons: {

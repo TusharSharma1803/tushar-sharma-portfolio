@@ -35,7 +35,7 @@ export function Footer() {
         </a>
       </div>
       <p className="mono mx-auto max-w-xl text-xs leading-6 text-[#8b9bb4]">
-        Designed & Built by Alex Morgan © 2024. All rights reserved.
+        Designed & Built by Tushar Sharma © 2026. All rights reserved.
       </p>
     </footer>
   );
