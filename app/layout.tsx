@@ -53,6 +53,8 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1873488560195503"
+     crossorigin="anonymous"></script>
       </head>
       <body className="antialiased bg-[#0d1117] text-[#e6f1ff]">
         <Providers>
