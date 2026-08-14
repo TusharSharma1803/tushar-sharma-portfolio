@@ -1,5 +1,6 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
+import AIChatWidget from '@/components/AIChatWidget'
 import { Providers } from './providers'
 import './globals.css'
 import './portfolio.css'
@@ -42,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <meta name="google-adsense-account" content="ca-pub-1873488560195503"></meta>
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap"
           rel="preload"
@@ -56,6 +58,7 @@ export default function RootLayout({
         <Providers>
           <div className="site-shell">
             {children}
+            <AIChatWidget />
             {process.env.NODE_ENV === 'production' && <Analytics />}
           </div>
         </Providers>
