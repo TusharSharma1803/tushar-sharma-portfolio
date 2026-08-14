@@ -1,6 +1,6 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import AIChatWidget from '@/components/AIChatWidget'
+// import AIChatWidget from '@/components/AIChatWidget'
 import { Providers } from './providers'
 import './globals.css'
 import './portfolio.css'
@@ -58,7 +58,7 @@ export default function RootLayout({
         <Providers>
           <div className="site-shell">
             {children}
-            <AIChatWidget />
+            {/* <AIChatWidget /> */}
             {process.env.NODE_ENV === 'production' && <Analytics />}
           </div>
         </Providers>
